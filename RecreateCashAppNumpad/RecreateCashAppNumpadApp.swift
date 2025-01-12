@@ -1,8 +1,8 @@
 //
-//  RecreateCashAppNumpadApp.swift
-//  RecreateCashAppNumpad
+//  CashAppNumpadSwiftUIApp.swift
+//  CashAppNumpadSwiftUI
 //
-//  Created by Tomás Boo Becerra on 12/1/25.
+//  Created by @txmasbo on 5/1/25.
 //
 
 import SwiftUI
@@ -11,7 +11,8 @@ import SwiftUI
 struct RecreateCashAppNumpadApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NumpadView()
+                .preferredColorScheme(.dark)
         }
     }
 }

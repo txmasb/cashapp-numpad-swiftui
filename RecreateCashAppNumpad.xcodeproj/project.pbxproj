@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3381B8282D344BDB000CF14F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3381B8202D344BDB000CF14F /* Preview Assets.xcassets */; };
+		3381B8292D344BDB000CF14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3381B8222D344BDB000CF14F /* Assets.xcassets */; };
+		3381B82E2D344C08000CF14F /* NumpadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381B82C2D344C08000CF14F /* NumpadView.swift */; };
+		3381B82F2D344C08000CF14F /* NumpadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381B82B2D344C08000CF14F /* NumpadViewModel.swift */; };
+		3381B8312D344C08000CF14F /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381B82D2D344C08000CF14F /* KeyPad.swift */; };
+		3381B8352D344D16000CF14F /* RecreateCashAppNumpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381B8342D344D10000CF14F /* RecreateCashAppNumpadApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3381B80F2D344BD0000CF14F /* RecreateCashAppNumpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecreateCashAppNumpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3381B8202D344BDB000CF14F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3381B8222D344BDB000CF14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3381B82B2D344C08000CF14F /* NumpadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumpadViewModel.swift; sourceTree = "<group>"; };
+		3381B82C2D344C08000CF14F /* NumpadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumpadView.swift; sourceTree = "<group>"; };
+		3381B82D2D344C08000CF14F /* KeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
+		3381B8342D344D10000CF14F /* RecreateCashAppNumpadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreateCashAppNumpadApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3381B8112D344BD0000CF14F /* RecreateCashAppNumpad */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RecreateCashAppNumpad;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3381B80C2D344BD0000CF14F /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		3381B8062D344BD0000CF14F = {
 			isa = PBXGroup;
 			children = (
-				3381B8112D344BD0000CF14F /* RecreateCashAppNumpad */,
+				3381B8252D344BDB000CF14F /* RecreateCashAppNumpad */,
 				3381B8102D344BD0000CF14F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,27 @@
 				3381B80F2D344BD0000CF14F /* RecreateCashAppNumpad.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3381B8212D344BDB000CF14F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3381B8202D344BDB000CF14F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3381B8252D344BDB000CF14F /* RecreateCashAppNumpad */ = {
+			isa = PBXGroup;
+			children = (
+				3381B8212D344BDB000CF14F /* Preview Content */,
+				3381B8222D344BDB000CF14F /* Assets.xcassets */,
+				3381B8342D344D10000CF14F /* RecreateCashAppNumpadApp.swift */,
+				3381B82B2D344C08000CF14F /* NumpadViewModel.swift */,
+				3381B82C2D344C08000CF14F /* NumpadView.swift */,
+				3381B82D2D344C08000CF14F /* KeyPad.swift */,
+			);
+			path = RecreateCashAppNumpad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				3381B8112D344BD0000CF14F /* RecreateCashAppNumpad */,
 			);
 			name = RecreateCashAppNumpad;
 			packageProductDependencies = (
@@ -109,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3381B8282D344BDB000CF14F /* Preview Assets.xcassets in Resources */,
+				3381B8292D344BDB000CF14F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3381B82E2D344C08000CF14F /* NumpadView.swift in Sources */,
+				3381B82F2D344C08000CF14F /* NumpadViewModel.swift in Sources */,
+				3381B8312D344C08000CF14F /* KeyPad.swift in Sources */,
+				3381B8352D344D16000CF14F /* RecreateCashAppNumpadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
